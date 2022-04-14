@@ -1,0 +1,162 @@
+body {
+    background-color: #5CDB95;
+}
+
+#container-main {
+    position: relative;
+    top: 350px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+
+#container-main-cam {
+    position: relative;
+    top: 150px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+
+#img_result {
+    position: relative;
+    top: 50px;
+}
+
+#container-main-details {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+
+#camera-window {
+    border-radius: 10px;
+}
+
+#camerabtn-wrapper {
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: auto;
+    top: 25px;
+    width: 97%;
+    height: 70px;
+}
+
+.image-wrapper {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+   
+}
+
+#camera-btn {
+   cursor: pointer;
+   display: block;
+   float: right;
+}
+
+#rect-1 {
+    height: 17px;
+    width: 154px;
+    background-color: #379683;
+    
+}
+
+#rect-2 {
+    height: 17px;
+    width: 79px;
+    background-color: #379683;
+}
+
+button {
+    border: none;
+  
+    padding: 15px;
+    font-family: robotobold;
+}
+
+#rect-3 {
+    height: 17px;
+    width: 218px;
+    background-color: #379683;
+}
+
+#title-text {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    font-family: robotoregular;
+    font-size: 30px;
+}
+
+
+
+h4, h2 {
+    font-family: robotobold
+}
+
+.item {
+    font-family: robotolight
+}
+
+#result-description {
+    position: relative;
+    top: 70px;
+    text-align: center;
+    font-family: robotolight;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#reveal {
+    display: none;
+}
+
+#barcode {
+    font-family: robotolight;
+}
+
+#description-text {
+    text-align: center;
+    font-family: robotolight;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.bold {
+    font-family: robotobold
+}
+
+.center {
+    margin: auto;
+   
+    padding: 10px;
+}
+
+/* our fonts */
+
+@font-face {
+    font-family: "robotoregular";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "robotobold";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "robotolight";
+    src: url("../fonts/Roboto-Light.ttf");
+}
+
+
